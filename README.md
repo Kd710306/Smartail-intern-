@@ -35,7 +35,7 @@ Implement a median filter from scratch using C++. Input should be an Image and t
 #File crawler
 
  Ojective:
-  * To crawl through a number of text files and fined number of times a given word has appeared in those text files.
+  * To crawl through a number of text files and find number of times a given word has appeared in those text files.
  
  Structure of file crawler:
   * It is a class
