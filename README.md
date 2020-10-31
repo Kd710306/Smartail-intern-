@@ -57,4 +57,6 @@ Implement a median filter from scratch using C++. Input should be an Image and t
  INPUT:
   * file1.txt
   * file2.txt
+ OUTPUT:
+  * Count of words provided  by user.
   
