@@ -1,10 +1,10 @@
 # Problem statement 1 :
-#Implement a median filter from scratch using C++. Input should be an Image and the output should be a reduced noisy image.
+Implement a median filter from scratch using C++. Input should be an Image and the output should be a reduced noisy image.
 
-Objective:
-  To remove noise from an image using median filter algorithm using c++ and output the resultant image.
-Procedure:
-  There are four different function each of whose purpose is described below in chronological order.
+  Objective:
+    To remove noise from an image using median filter algorithm using c++ and output the resultant image.
+  Procedure:
+   There are four different function each of whose purpose is described below in chronological order.
   
   1)Read fucntion:
   * It takes input file name,array to store the data from input file and header array to store the header information of the image.
@@ -24,7 +24,7 @@ Procedure:
    4)Write function:
    * It is same as input fucntion.In place of input file it takes an output file and stores the resultant image pixel values obtained from above functions
 
-Obseravtion:
+  Obseravtion:
   * It reduces the noise of the image.
   * It takes O(n*m) time comlpexity where n and m are height and width of the image.
    
@@ -33,14 +33,14 @@ Obseravtion:
 # Problem statement 2 :
 #File crawler
 
-Ojective:
-   To crawl through a number of text files and fined number of times a given word has appeared in those text files.
-Structure of file crawler:
-   * It is a class
-   * It consist of a vector for storing all the file paths
-   * And another vector which stores each word in a particular file according to there index.
-   * It consists of methods crawling,search and stroringfile.
-Procedure:
-  * First it stores the paths of the files using storing file method
-  * Then for each file path it opens the file and read it and stores it words using crawling function. 
-  * finally for a particular word given by user, it searches from the vector using search function that has stored the words and gives count for each of number of     times that word has appeared in a particular file  .
+  Ojective:
+     To crawl through a number of text files and fined number of times a given word has appeared in those text files.
+  Structure of file crawler:
+     * It is a class
+     * It consist of a vector for storing all the file paths
+     * And another vector which stores each word in a particular file according to there index.
+    * It consists of methods crawling,search and stroringfile.
+  Procedure:
+    * First it stores the paths of the files using storing file method
+    * Then for each file path it opens the file and read it and stores it words using crawling function. 
+    * finally for a particular word given by user, it searches from the vector using search function that has stored the words and gives count for each of number of     times that word has appeared in a particular file  .
