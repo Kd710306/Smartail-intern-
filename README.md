@@ -15,10 +15,10 @@ Procedure:
    2)median function:
    * It first stores the data from three different channels(i.e, r g b) to three different array.
    * It then calls the medianfilter function and finds the median of each channel seperately
-   *Then again stores all the data again in a single 2D array after proccessing.
+   * Then again stores all the data again in a single 2D array after proccessing.
    
    3)medianfilter function:
-   * finds median of the pixel value stored in array by taking 25 pixel values around a single pixel
+   * finds median of the pixel value stored in array by taking 25 pixel values around a single pixel.
    * It sorts the values and finds the mid value and stores in the place of the pixel value around wich it is calculated.
    
    4)Write function:
