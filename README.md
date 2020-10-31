@@ -28,7 +28,13 @@ Implement a median filter from scratch using C++. Input should be an Image and t
   Obseravtion:
   * It reduces the noise of the image.
   * It takes O(n*m) time comlpexity where n and m are height and width of the image.
-   
+    
+  INPUT IMAGE:
+  * Input.bmp
+  
+  OUTPUT IMAGE:
+  * Output.bmp
+  
 
 
 # Problem statement 2 :
@@ -47,3 +53,8 @@ Implement a median filter from scratch using C++. Input should be an Image and t
   * First it stores the paths of the files using storing file method
   * Then for each file path it opens the file and read it and stores it words using crawling function. 
   * finally for a particular word given by user, it searches from the vector using search function that has stored the words and gives count for each of number of     times that word has appeared in a particular file  .
+  
+ INPUT:
+  * file1.txt
+  * file2.txt
+  
