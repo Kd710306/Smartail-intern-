@@ -31,7 +31,7 @@ Obseravtion:
 
 
 # Problem statement 2 :
-File crawler
+#File crawler
 
 Ojective:
    To crawl through a number of text files and fined number of times a given word has appeared in those text files.
