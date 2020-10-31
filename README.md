@@ -2,9 +2,10 @@
 Implement a median filter from scratch using C++. Input should be an Image and the output should be a reduced noisy image.
 
   Objective:
-    To remove noise from an image using median filter algorithm using c++ and output the resultant image.
+   * To remove noise from an image using median filter algorithm using c++ and output the resultant image.
+  
   Procedure:
-   There are four different function each of whose purpose is described below in chronological order.
+   * There are four different function each of whose purpose is described below in chronological order.
   
   1)Read fucntion:
   * It takes input file name,array to store the data from input file and header array to store the header information of the image.
@@ -33,14 +34,16 @@ Implement a median filter from scratch using C++. Input should be an Image and t
 # Problem statement 2 :
 #File crawler
 
-  Ojective:
-     To crawl through a number of text files and fined number of times a given word has appeared in those text files.
-  Structure of file crawler:
+ Ojective:
+  * To crawl through a number of text files and fined number of times a given word has appeared in those text files.
+ 
+ Structure of file crawler:
   * It is a class
   * It consist of a vector for storing all the file paths
   * And another vector which stores each word in a particular file according to there index.
   * It consists of methods crawling,search and stroringfile.
-  Procedure:
+ 
+ Procedure:
   * First it stores the paths of the files using storing file method
   * Then for each file path it opens the file and read it and stores it words using crawling function. 
   * finally for a particular word given by user, it searches from the vector using search function that has stored the words and gives count for each of number of     times that word has appeared in a particular file  .
